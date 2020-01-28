@@ -4,22 +4,21 @@ import './Contact.css';
 
 function Contact(props) {
    return (
-       <div>
+    <figure className="Contact">
+      <img className = "nameAvatar" 
+         src={props.image}
+         alt={props.character}
+      />
+       
+      
+ 
+</figure>
 
-           
-       </div>
      
     
 
    );
 }
-
-
-
-
-
-
-
 
 
 

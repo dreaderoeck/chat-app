@@ -42,8 +42,8 @@ const ContactList = () => (
         <Contact key ={item.id} avatar={item.avatar} name={item.name} online={item.online} />
         ))}
     </React.Fragment>
-  );
 
+  );
 
 
 export default ContactList;

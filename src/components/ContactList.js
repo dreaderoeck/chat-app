@@ -36,10 +36,11 @@ const contacts = [
     }
 ];
 
+
 const ContactList = () => (
     <React.Fragment>
       {contacts.map(item => (
-        <Contact key ={item.id} avatar={item.avatar} name={item.name} online={item.online} />
+        <Contact key={item.id} avatar={item.avatar} name={item.name} online={item.online} />
         ))}
     </React.Fragment>
 
